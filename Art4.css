@@ -1,0 +1,1006 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 900px;
+    width: 1800px;
+    background-color: #78ad9c;
+}
+.container{
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+}
+.face{
+    background-color: #2A2220;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px;
+}
+.cat{
+    position: relative;
+    top: 500px;
+    left: 750px;
+}
+.ear-1, .ear-r{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #2A2220;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+.ear-1{
+    bottom: 35px;
+    transform: rotate(-30deg);
+
+}
+.ear-r{
+    bottom: 85px;
+    left: 110px;
+    transform: rotate(30deg);
+}
+.inner1{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-left: 25px solid transparent;
+    right: 25px;
+    position: relative;
+}
+.inner2{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-right: 25px solid transparent;
+    
+    position: relative;  
+}
+.eye-1, .eye-r{
+    height: 30px;
+    width: 30px;
+    background-color: #d2873b;
+    border-radius: 50%;
+    position: relative;
+
+}
+.eye-1{
+    bottom: 75px;
+    left: 30px;
+
+}
+.eye-r{
+    bottom: 105px;
+    left: 90px;
+
+}
+.eyeball{
+    background-color: #262626;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.nose{
+    height: 0;
+    width: 0;
+    border-top: 8px solid #d36149;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 68px;
+}
+.l1,.l2{
+    background-color: #d36149;
+    height: 8px;
+    width: 1px;
+    position: relative;
+    
+
+
+}
+.l1{
+    transform: rotate(45deg);
+    bottom: 0px;
+    right: 4px;
+}
+.l2{
+    transform: rotate(-45deg);
+    bottom: 8px;
+    left: 3px;
+ 
+}
+.mouth{
+    background-color:#d36149; 
+    height: 6px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.body{
+    background-color:#2A2220; 
+    height: 130px;
+    width: 140px;
+    position: relative;
+    left: 775px;
+    top: 430px;
+    bottom: 5px;
+    border-radius: 0 65px 0 0 ;
+
+}
+.pw-1{
+    background-color: #2A2220;
+    height: 20px;
+    width: 22px;
+     margin-top: 424px;
+    margin-left: 775px;
+    border-radius: 0 0 10px 10px;
+
+}
+.pw-2{
+    background-color: #2A2220;
+    height: 20px;
+    width: 22px;
+    margin-top: -18px;
+    margin-left: 834px;
+    border-radius: 0 0 10px 10px;
+}
+.tail{
+    background-color: #2A2220;
+height: 20px;
+width: 100px;
+margin-top: -36px;
+margin-left: 880px;
+border-radius: 0 20px 20px 0;
+}
+.cat1{
+    position: relative;
+    margin-top:-225px;
+    left: 450px;
+}
+.face1{
+    background-color: #f9c8ea;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px; 
+    border-bottom: 2px dotted ;
+    border-left: 2px solid #f9c8ea ;
+    border-right: 2px solid #f9c8ea ;
+}
+.ear-2, .ear-3{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #f9c8ea;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+.ear-2{
+    bottom: 35px;
+    transform: rotate(-30deg);
+
+}
+.ear-3{
+    bottom: 85px;
+    left: 110px;
+    transform: rotate(30deg);
+}
+.inner3{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #f70505;
+    border-left: 25px solid transparent;
+    right: 25px;
+    position: relative;
+}
+.inner4{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #f70505;
+    border-right: 25px solid transparent;
+    
+    position: relative;  
+}
+.eye-2, .eye-3{
+    height: 30px;
+    width: 30px;
+    background-color:#f70505; ;
+    border-radius: 50%;
+    position: relative;
+
+}
+.eye-2{
+    bottom: 75px;
+    left: 30px;
+
+}
+.eye-3{
+    bottom: 105px;
+    left: 90px;
+
+}
+.eyeball1{
+    background-color: #262626;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.nose1{
+    height: 0;
+    width: 0;
+    border-top: 8px solid #f70505 ;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 68px;
+}
+.l3,.l4{
+    background-color: #f70505;
+    height: 8px;
+    width: 1px;
+    position: relative;
+    
+
+
+}
+.l3{
+    transform: rotate(45deg);
+    bottom: 0px;
+    right: 4px;
+}
+.l4{
+    transform: rotate(-45deg);
+    bottom: 8px;
+    left: 3px;
+ 
+}
+.mouth1{
+    background-color:#f70505; 
+    height: 6px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+
+.body1{
+    background-color:#f9c8ea; 
+    height: 130px;
+    width: 140px;
+    position: relative;
+    left: 436px;
+    top: -67.5px;
+    bottom: 5px;
+    border-radius: 65px 0 0 0;
+    
+    
+}
+.pw-3{
+    background-color:#f9c8ea;
+    height: 130px;
+    height: 20px;
+    width: 22px;
+     margin-top: -72px;
+    margin-left: 496px;
+    border-radius: 0 0 10px 10px;
+
+}
+.pw-4{
+    background-color: #f9c8ea;
+    height: 20px;
+    width: 22px;
+    margin-top: -19px;
+    margin-left: 554px;
+    border-radius: 0 0 10px 10px;
+}
+.tail1{
+background-color:#f9c8ea;
+height: 20px;
+width: 100px;
+margin-top: -36px;
+margin-left: 367px;
+border-radius: 10px 0 0 10px;
+
+}
+.necklace{
+
+        width: 10px;
+        height: 10px;
+        border: .1px solid;
+        transform: rotate(45deg);
+        border-radius: 0% 50% 50% 50%;
+        background: mediumblue;
+        margin-top: -130px;
+        margin-left: 560px;
+}
+.wire{
+    height: 1px;
+    width: 70px;
+    background-color: black;
+    
+}
+.necklace1{
+
+    width: 10px;
+    height: 10px;
+    border: .1px solid;
+    transform: rotate(45deg);
+    border-radius: 0% 50% 50% 50%;
+    background: mediumblue;
+    margin-top: -14px;
+    margin-left: 528px;
+}
+.necklace2{
+
+    width: 10px;
+    height: 10px;
+    border: .1px solid;
+    transform: rotate(45deg);
+    border-radius: 0% 50% 50% 50%;
+    background: mediumblue;
+    margin-top: -10px;
+    margin-left: 498px;
+}
+.heart {
+    background: red;
+    
+    height: 10px;
+    width:10px;
+    margin-top: -180px;
+    margin-left:660px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height: 10px;
+    width: 10px;
+}
+.heart::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height: 10px;
+    width:10px;
+}
+@keyframes pulse{
+    0% {
+        transform: rotate(-45deg) scale(1);
+        opacity: 0;
+    }/*
+    10% {
+        transform: rotate(-45deg) scale(1.3);
+    }
+    20% {
+        transform: rotate(-45deg) scale(0.9);
+    }
+    30% {
+        transform: rotate(-45deg) scale(1.2);
+    }
+    40% {
+        transform: rotate(-45deg) scale(0.9);
+    }*/
+    50% {
+        transform: rotate(-45deg) scale(1.3);
+        opacity: 1;
+    }/*
+    60% {
+        transform: rotate(-45deg) scale(0.95);
+    }
+    70% {
+        transform: rotate(-45deg) scale(1);
+    } */
+    100% {
+        transform: rotate(-45deg) scale(1);
+        opacity: 1;
+    }
+}
+.heart1{
+    background: red;
+    
+    height:20px;
+    width:20px;
+    margin-top: -180px;
+    margin-left:660px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart1::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:20px;
+    width:20px;
+}
+.heart1::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:20px;
+    width:20px;
+}
+.heart2{
+    background: red;
+    
+    height:15px;
+    width:15px;
+    margin-top: 100px;
+    margin-left:600px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart2::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:15px;
+    width:15px;
+}
+.heart2::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:15px;
+    width:15px;
+}
+.heart3{
+    background: red;
+    
+    height:18px;
+    width:18px;
+    margin-top: -60px;
+    margin-left:695px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart3::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:18px;
+    width:18px;
+}
+.heart3::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:18px;
+    width:18px;
+}
+.heart4 {
+    background: red;
+    
+    height: 10px;
+    width:10px;
+    margin-top: 200px;
+    margin-left:660px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart4::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height: 10px;
+    width: 10px;
+}
+.heart4::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height: 10px;
+    width:10px;
+
+}.heart5 {
+    background: red;
+    
+    height: 10px;
+    width:10px;
+    margin-top: -50px;
+    margin-left:690px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart5::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height: 10px;
+    width: 10px;
+}
+.heart5::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height: 10px;
+    width:10px;
+}
+.heart6 {
+    background: red;
+    
+    height: 10px;
+    width:10px;
+    margin-top:-40px;
+    margin-left:630px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart6::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height: 10px;
+    width: 10px;
+}
+.heart6::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height: 10px;
+    width:10px;
+}
+
+.heart7{
+    background: red;
+    
+    height:15px;
+    width:15px;
+    margin-top: -70px;
+    margin-left:730px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart7::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:15px;
+    width:15px;
+}
+.heart7::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:15px;
+    width:15px;
+}
+.heart8{
+    background: red;
+    
+    height:25px;
+    width:25px;
+    margin-top: -250px;
+    margin-left:730px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart8::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:25px;
+    width:25px;
+}
+.heart8::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:25px;
+    width:25px;
+}
+
+
+
+.heart9{
+    background: red;
+    height:30px;
+    width:30px;
+    margin-top: -50px;
+    margin-left:600px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart9::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:30px;
+    width:30px;
+}
+.heart9::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:30px;
+    width:30px;
+}
+.heart10{
+    background: red;
+    height:18px;
+    width:18px;
+    margin-top: 90px;
+    margin-left:540px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart10::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:18px;
+    width:18px;
+}
+.heart10::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:18px;
+    width:18px;
+}
+
+.heart11{
+    background: red;
+    height:18px;
+    width:18px;
+    margin-top: -20px;
+    margin-left:800px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart11::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:18px;
+    width:18px;
+}
+.heart11::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:18px;
+    width:18px;
+}
+
+
+.heart12{
+    background: red;
+    height:35px;
+    width:35px;
+    margin-top: -200px;
+    margin-left:500px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart12::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:35px;
+    width:35px;
+}
+.heart12::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:35px;
+    width:35px;
+}
+.heart13{
+    background: red;
+    height:35px;
+    width:35px;
+    margin-top: -100px;
+    margin-left:680px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart13::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:35px;
+    width:35px;
+}
+.heart13::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:35px;
+    width:35px;
+}
+
+.heart14{
+    background: red;
+    height:30px;
+    width:30px;
+    margin-top: 40px;
+    margin-left:769px ;
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 2s linear infinite;
+
+
+} .heart14::after {
+    
+    background:inherit;
+    border-radius: 50%; /* To make circle */
+    content:'';
+    position:absolute;
+
+    top: -50%; 
+    
+    left:0;
+    height:30px;
+    width:30px;
+}
+.heart14::before {
+  
+    background:inherit; 
+    border-radius: 50%;
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%;
+    height:30px;
+    width:30px;
+}
+.nail1{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 2px 2px 2px 2px ;
+    margin-left: 563px;
+    margin-top: 600px;
+}
+
+.nail2{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 2px 2px 2px 2px ;
+    margin-left: 504px;
+    margin-top: -5px;
+}
+
+.nail3{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 2px 2px 2px 2px ;
+    margin-left: 784px;
+    margin-top: -11px;
+}
+.nail4{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 2px 2px 2px 2px ;
+    margin-left: 843px;
+    margin-top: -3px;
+}
+.lampbase{
+    height: 80px;
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 90px;
+    border-bottom: 100px solid rgb(92, 61, 61);
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent ;
+    border-radius: 5px;
+
+}
+.lampbase1{
+    height: 40px;
+    width: 40px;
+    background-color: mediumvioletred;
+    margin-top: -140px;
+    margin-left: 130px;
+    border-radius: 5px;
+
+}
+.lamppipe{
+    height: 350px;
+    width: 15px;
+    background-color: black;
+    margin-left: 143px;
+    margin-top: -390px;
+
+}
+.trapezoid {
+    border-bottom: 20px solid blue;
+    width: 20px;
+    height: 30px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: 132px;
+    margin-top: -400px;
+    border-radius: 5px;
+  }
+  .light{
+    height: 100px;
+    width: 100px;
+    background-color: #f4f44c;
+    border-radius: 50%;
+    margin-left: 103px;
+    margin-top: -120px;
+    box-shadow: 0 0 10px rgb(248, 244, 221),
+    0 0 20px rgb(239, 236, 221),
+    0 0 30px rgb(243, 240, 223),
+    0 0 300px rgb(208, 16, 16);
+  }
+  .cap{
+    border-bottom: 20px solid blue;
+    width: 10px;
+    height: 20px;
+    margin-left: 138px;
+    margin-top: -139px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 5px;
+    
+  }
